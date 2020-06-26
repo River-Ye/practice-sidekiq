@@ -1,5 +1,6 @@
 :concurrency: 5
 :queues:
   - default
+  - mailers
   - ['api_create_worker', 10]
 :timeout: 86400
